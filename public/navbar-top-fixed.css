@@ -1,0 +1,6 @@
+/* Show it is fixed to the top */
+body {
+  padding-top: 4.5rem;
+  /* In production, this `min-height` style can be taken out since it is only here for the Bootstrap example page. */
+  min-height: 75rem;
+}

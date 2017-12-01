@@ -1,0 +1,257 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='icon', href='/favicon.ico')
+
+    title Navbar Template for Bootstrap
+
+    link(
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.css"
+      integrity="sha256-tqnsGuq1RhhSNqeZr8GW+PXVDpiNDwNujo4iNsdP50o="
+      crossorigin="anonymous"
+    )
+    link(href='/navbar.css', rel='stylesheet')
+
+  body
+
+    nav.navbar.navbar-dark.bg-dark
+      a.navbar-brand(href='#') Never expand
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExample01', aria-controls='navbarsExample01', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExample01.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item.active
+            a.nav-link(href='#')
+              | Home 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='#') Link
+          li.nav-item
+            a.nav-link.disabled(href='#') Disabled
+          li.nav-item.dropdown
+            a#dropdown01.nav-link.dropdown-toggle(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Dropdown
+            .dropdown-menu(aria-labelledby='dropdown01')
+              a.dropdown-item(href='#') Action
+              a.dropdown-item(href='#') Another action
+              a.dropdown-item(href='#') Something else here
+        form.form-inline.my-2.my-md-0
+          input.form-control(type='text', placeholder='Search', aria-label='Search')
+    nav.navbar.navbar-expand.navbar-dark.bg-dark
+      a.navbar-brand(href='#') Always expand
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExample02', aria-controls='navbarsExample02', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExample02.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item.active
+            a.nav-link(href='#')
+              | Home 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='#') Link
+        form.form-inline.my-2.my-md-0
+          input.form-control(type='text', placeholder='Search')
+    nav.navbar.navbar-expand-sm.navbar-dark.bg-dark
+      a.navbar-brand(href='#') Expand at sm
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExample03', aria-controls='navbarsExample03', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExample03.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item.active
+            a.nav-link(href='#')
+              | Home 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='#') Link
+          li.nav-item
+            a.nav-link.disabled(href='#') Disabled
+          li.nav-item.dropdown
+            a#dropdown03.nav-link.dropdown-toggle(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Dropdown
+            .dropdown-menu(aria-labelledby='dropdown03')
+              a.dropdown-item(href='#') Action
+              a.dropdown-item(href='#') Another action
+              a.dropdown-item(href='#') Something else here
+        form.form-inline.my-2.my-md-0
+          input.form-control(type='text', placeholder='Search')
+    nav.navbar.navbar-expand-md.navbar-dark.bg-dark
+      a.navbar-brand(href='#') Expand at md
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExample04', aria-controls='navbarsExample04', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExample04.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item.active
+            a.nav-link(href='#')
+              | Home 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='#') Link
+          li.nav-item
+            a.nav-link.disabled(href='#') Disabled
+          li.nav-item.dropdown
+            a#dropdown04.nav-link.dropdown-toggle(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Dropdown
+            .dropdown-menu(aria-labelledby='dropdown04')
+              a.dropdown-item(href='#') Action
+              a.dropdown-item(href='#') Another action
+              a.dropdown-item(href='#') Something else here
+        form.form-inline.my-2.my-md-0
+          input.form-control(type='text', placeholder='Search')
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+      a.navbar-brand(href='#') Expand at lg
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExample05', aria-controls='navbarsExample05', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExample05.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item.active
+            a.nav-link(href='#')
+              | Home 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='#') Link
+          li.nav-item
+            a.nav-link.disabled(href='#') Disabled
+          li.nav-item.dropdown
+            a#dropdown05.nav-link.dropdown-toggle(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Dropdown
+            .dropdown-menu(aria-labelledby='dropdown05')
+              a.dropdown-item(href='#') Action
+              a.dropdown-item(href='#') Another action
+              a.dropdown-item(href='#') Something else here
+        form.form-inline.my-2.my-md-0
+          input.form-control(type='text', placeholder='Search')
+    nav.navbar.navbar-expand-xl.navbar-dark.bg-dark
+      a.navbar-brand(href='#') Expand at xl
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExample06', aria-controls='navbarsExample06', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExample06.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item.active
+            a.nav-link(href='#')
+              | Home 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='#') Link
+          li.nav-item
+            a.nav-link.disabled(href='#') Disabled
+          li.nav-item.dropdown
+            a#dropdown06.nav-link.dropdown-toggle(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Dropdown
+            .dropdown-menu(aria-labelledby='dropdown06')
+              a.dropdown-item(href='#') Action
+              a.dropdown-item(href='#') Another action
+              a.dropdown-item(href='#') Something else here
+        form.form-inline.my-2.my-md-0
+          input.form-control(type='text', placeholder='Search')
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+      .container
+        a.navbar-brand(href='#') Container
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExample07', aria-controls='navbarsExample07', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarsExample07.collapse.navbar-collapse
+          ul.navbar-nav.mr-auto
+            li.nav-item.active
+              a.nav-link(href='#')
+                | Home 
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='#') Link
+            li.nav-item
+              a.nav-link.disabled(href='#') Disabled
+            li.nav-item.dropdown
+              a#dropdown07.nav-link.dropdown-toggle(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Dropdown
+              .dropdown-menu(aria-labelledby='dropdown07')
+                a.dropdown-item(href='#') Action
+                a.dropdown-item(href='#') Another action
+                a.dropdown-item(href='#') Something else here
+          form.form-inline.my-2.my-md-0
+            input.form-control(type='text', placeholder='Search', aria-label='Search')
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExample08', aria-controls='navbarsExample08', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExample08.collapse.navbar-collapse.justify-content-md-center
+        ul.navbar-nav
+          li.nav-item.active
+            a.nav-link(href='#')
+              | Centered nav only 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='#') Link
+          li.nav-item
+            a.nav-link.disabled(href='#') Disabled
+          li.nav-item.dropdown
+            a#dropdown08.nav-link.dropdown-toggle(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Dropdown
+            .dropdown-menu(aria-labelledby='dropdown08')
+              a.dropdown-item(href='#') Action
+              a.dropdown-item(href='#') Another action
+              a.dropdown-item(href='#') Something else here
+    .container
+      nav.navbar.navbar-expand-lg.navbar-light.bg-light.rounded
+        a.navbar-brand(href='#') Navbar
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExample09', aria-controls='navbarsExample09', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarsExample09.collapse.navbar-collapse
+          ul.navbar-nav.mr-auto
+            li.nav-item.active
+              a.nav-link(href='#')
+                | Home 
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='#') Link
+            li.nav-item
+              a.nav-link.disabled(href='#') Disabled
+            li.nav-item.dropdown
+              a#dropdown09.nav-link.dropdown-toggle(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Dropdown
+              .dropdown-menu(aria-labelledby='dropdown09')
+                a.dropdown-item(href='#') Action
+                a.dropdown-item(href='#') Another action
+                a.dropdown-item(href='#') Something else here
+          form.form-inline.my-2.my-md-0
+            input.form-control(type='text', placeholder='Search', aria-label='Search')
+      nav.navbar.navbar-expand-lg.navbar-light.bg-light.rounded
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExample10', aria-controls='navbarsExample10', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarsExample10.collapse.navbar-collapse.justify-content-md-center
+          ul.navbar-nav
+            li.nav-item.active
+              a.nav-link(href='#')
+                | Centered nav only 
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='#') Link
+            li.nav-item
+              a.nav-link.disabled(href='#') Disabled
+            li.nav-item.dropdown
+              a#dropdown10.nav-link.dropdown-toggle(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Dropdown
+              .dropdown-menu(aria-labelledby='dropdown10')
+                a.dropdown-item(href='#') Action
+                a.dropdown-item(href='#') Another action
+                a.dropdown-item(href='#') Something else here
+      main(role='main')
+        .jumbotron
+          .col-sm-8.mx-auto
+            h1 Navbar examples
+            p
+              | This example is a quick exercise to illustrate how the navbar and its contents work. Some navbars extend the width of the viewport, others are confined within a 
+              code .container
+              | . For positioning of navbars, checkout the 
+              a(href='../navbar-top/') top
+              |  and 
+              a(href='../navbar-top-fixed/') fixed top
+              |  examples.
+            p
+              | At the smallest breakpoint, the collapse plugin is used to hide the links and show a menu button to toggle the collapsed content.
+            p
+              a.btn.btn-primary(href='../../components/navbar/', role='button') View navbar docs »
+
+    script(
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"
+    )
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js" integrity="sha256-pS96pU17yq+gVu4KBQJi38VpSuKN7otMrDQprzf/DWY=" crossorigin="anonymous")
+    script(
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"
+      integrity="sha256-DiWJXXyq81WlPRnDfGmgYZj2aOVCKyEdJ1l+2TmDuAs="
+      crossorigin="anonymous"
+    )

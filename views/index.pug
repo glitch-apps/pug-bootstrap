@@ -1,0 +1,130 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='icon', href='/favicon.ico')
+
+    title Pug Templates for Bootstrap
+
+    link(
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.css"
+      integrity="sha256-tqnsGuq1RhhSNqeZr8GW+PXVDpiNDwNujo4iNsdP50o="
+      crossorigin="anonymous"
+    )
+    link(href='/narrow-jumbotron.css', rel='stylesheet')
+
+  body
+
+    .container
+      header.header.clearfix
+        nav
+          ul.nav.nav-pills.float-right
+            li.nav-item
+              a.nav-link.active(href='#')
+                | Home 
+                span.sr-only (current)
+        h3.text-muted Pug Bootstrap
+
+      main(role='main')
+        .jumbotron
+          h1.display-3 Pug Templates for Bootstrap
+          p.lead
+            | Implementing
+            |
+            |
+            a(href="http://getbootstrap.com/docs/4.0/examples/") http://getbootstrap.com/docs/4.0/examples/
+            |
+            |
+            | in Pug, using
+            |
+            |
+            a(href="https://cdnjs.com/") cdnjs.com
+            |
+            |
+            | for Bootstrap and related libraries. Initial conversion using
+            |
+            |
+            a(href="http://html2jade.org/") html2jade.org
+            |
+            |
+            | and updated by hand.
+          p.lead
+            | By
+            |
+            |
+            a(href="https://chilts.org") chilts
+            |
+            |
+            | /
+            |
+            |
+            a(href="https://twitter.com/andychilton") @andychilton
+            | .
+        .row.marketing
+          .col-lg-6
+            h2 Frameworks
+            h4 Starter Template
+            p Nothing but the basics: compiled CSS and JavaScript.
+            p
+              a.btn.btn-primary(href="/starter-template") Open
+              |
+              |
+              a.btn.btn-primary(href="/template/starter-template") View Template
+            h4 Grid
+            p Multiple examples of grid layouts with all four tiers, nesting, and more.
+            p
+              a.btn.btn-primary(href="/grid") Open
+              |
+              |
+              a.btn.btn-primary(href="/template/grid") View Template
+            h4 Jumbotron
+            p Build around the jumbotron with a navbar and some basic grid columns.
+            p
+              a.btn.btn-primary(href="/jumbotron") Open
+              |
+              |
+              a.btn.btn-primary(href="/template/jumbotron") View Template
+            h4 Narrow Jumbotron
+            p Build a more custom page by narrowing the default container and jumbotron.
+            p
+              a.btn.btn-primary(href="/narrow-jumbotron") Open
+              |
+              |
+              a.btn.btn-primary(href="/template/narrow-jumbotron") View Template
+          .col-lg-6
+            h2 Navbars
+            h4 Navbar
+            p Super basic template that includes the navbar along with some additional content.
+            p
+              a.btn.btn-primary(href="/navbar") Open
+              |
+              |
+              a.btn.btn-primary(href="/template/navbar") View Template
+            h4 Static Top Navbar
+            p Super basic template with a static top navbar along with some additional content.
+            p
+              a.btn.btn-primary(href="/navbar-top") Open
+              |
+              |
+              a.btn.btn-primary(href="/template/navbar-top") View Template
+            h4 Fixed Navbar
+            p Super basic template with a fixed top navbar along with some additional content.
+            p
+              a.btn.btn-primary(href="/navbar-top-fixed") Open
+              |
+              |
+              a.btn.btn-primary(href="/template/navbar-top-fixed") View Template
+            h4 Bottom Navbar
+            p Super basic template with a bottom navbar along with some additional content.
+            p
+              a.btn.btn-primary(href="/navbar-bottom") Open
+              |
+              |
+              a.btn.btn-primary(href="/template/navbar-bottom") View Template
+
+      footer.footer
+        p A project by <a href="https://chilts.org">chilts</a> (<a href="https://twitter.com">@andychilton</a>).
