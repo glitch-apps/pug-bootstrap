@@ -1,0 +1,9 @@
+/* Show it's not fixed to the top */
+body {
+  min-height: 75rem;
+}
+/* Show it's not fixed to the top */
+/* In production, this `body` style can be taken out since it is only here for the Bootstrap example page. */
+body {
+  min-height: 75rem;
+}
